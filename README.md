@@ -7,10 +7,14 @@
 The FormMaking developed base on [vue](https://github.com/vuejs/vue) and [element-ui](https://github.com/ElemeFE/element), equipts with the latest front-end technology stack, built-in i18n internationalization solution, all of those are aimed at making developmemt simpler, and more efficiently.
 
 - [Preview](http://form.xiaoyaoji.cn/basic-version)
+   
+- [Document](http://docs.form.xiaoyaoji.cn) 使用文档
 
-- [Document](http://docs.form.xiaoyaoji.cn)
+- [course](http://docs.form.xiaoyaoji.cn/zh/other/course.html) 学习课程
 
-- [Advanced](http://form.xiaoyaoji.cn) Privade more components and APIs
+- [Advanced](http://form.xiaoyaoji.cn) Privade more components and APIs 高级内容
+
+- [Interface](http://www.xiaoyaoji.cn) 小幺鸡接口工具
 
 ## Feature
 
@@ -35,15 +39,6 @@ The FormMaking developed base on [vue](https://github.com/vuejs/vue) and [elemen
 ## Issue
 
 * If you find a new bug or have a new feature request, please create a new issue.
-
-
-## Donation  
-
-If you do like ours open source, would you mind to buy us a cup of coffee :) lol ☺
-
-![](http://docs.form.xiaoyaoji.cn/donation.jpeg)
-
-[PayPal Me](https://paypal.me/gavinzhulei)
 
 ## Browsers support
 

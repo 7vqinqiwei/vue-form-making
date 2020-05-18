@@ -4,13 +4,9 @@
       <img class="fm-logo" src="./assets/logo.png">
       <div class="fm-title" @click="handleHome">{{$t('header.title')}}</div>
 
-      <iframe style="vertical-align: middle;margin-top:10px;margin-left: 10px;" src="https://ghbtns.com/github-btn.html?user=GavinZhulei&repo=vue-form-making&type=star&count=true" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-
+      <!--<iframe style="vertical-align: middle;margin-top:10px;margin-left: 10px;" src="https://ghbtns.com/github-btn.html?user=7V&repo=vue-form-making&type=star&count=true" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+-->
       <div class="fm-link">
-        <a target="_blank" href="http://form.xiaoyaoji.cn/pricing">{{$t('header.pricing')}}</a>
-        <a target="_blank" href="http://docs.form.xiaoyaoji.cn">{{$t('header.document')}}</a>
-        <a target="_blank" href="http://docs.form.xiaoyaoji.cn/zh/other/course.html" v-if="$lang == 'zh-CN'">学习课程</a> 
-        <a target="_blank" href="https://github.com/GavinZhuLei/vue-form-making">GitHub</a>
 
         <div class="action-item">
           <el-dropdown trigger="click" @command="handleLangCommand">
@@ -24,8 +20,6 @@
           </el-dropdown>
         </div>
 
-        <a class="ad" href="http://form.xiaoyaoji.cn" target="_blank">{{$t('header.advanced')}}</a>
-        <a class="ad" href="http://www.xiaoyaoji.cn" target="_blank" v-if="$lang == 'zh-CN'">小幺鸡接口工具</a>
       </div>
     </div>
     <div  class="fm-container"><router-view/></div>
@@ -54,7 +48,9 @@ export default {
   height: 50px;
   box-shadow: 0 2px 10px rgba(70,160,252, 0.6);
   padding: 0 10px;
-  background-image: linear-gradient(to right,#1278f6,#00b4aa);
+  /*background-image: linear-gradient(to right,#1278f6,#00b4aa);
+  */
+  background-color: #00b4aa;
   position: relative;
 
   .fm-logo{
@@ -75,7 +71,7 @@ export default {
   .fm-link{
     height: 50px;
     float: right;
-    
+
     a{
       color: #fff;
       text-decoration: none;
@@ -83,7 +79,7 @@ export default {
       line-height: 50px;
       font-weight: 500;
       margin-left: 15px;
-      
+
       &:hover{
         opacity: 0.8;
       }
@@ -103,7 +99,7 @@ export default {
       .el-dropdown-link{
         cursor: pointer;
         color: #fff;
-
+        line-height: 4;
         &:hover{
           opacity: 0.8;
         }

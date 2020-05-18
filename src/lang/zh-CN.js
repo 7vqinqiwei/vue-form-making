@@ -3,7 +3,7 @@ export default {
     components: {
       fields: {
         input: '单行文本',
-        textarea: '多行文本',
+        textarea: '长文本',
         number: '计数器',
         radio: '单选框组',
         checkbox: '多选框组',

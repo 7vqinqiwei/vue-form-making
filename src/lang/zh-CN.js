@@ -89,8 +89,6 @@ export default {
         block: '块级',
         inline: '行内',
         contentPosition: '文案位置',
-        left: '左侧',
-        right: '右侧',
         center: '居中',
         showInput: '显示输入框',
         min: '最小值',

@@ -1,11 +1,8 @@
 <template>
   <div id="app">
-    <div class="fm-header">
+    <div class="fm-header" v-show="false">
       <img class="fm-logo" src="./assets/logo.png">
       <div class="fm-title" @click="handleHome">{{$t('header.title')}}</div>
-
-      <!--<iframe style="vertical-align: middle;margin-top:10px;margin-left: 10px;" src="https://ghbtns.com/github-btn.html?user=7V&repo=vue-form-making&type=star&count=true" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
--->
       <div class="fm-link">
 
         <div class="action-item">
@@ -28,7 +25,6 @@
 
 <script>
 import Vue from 'vue'
-
 export default {
   name: 'app',
   methods: {

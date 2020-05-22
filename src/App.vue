@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="fm-header" v-show="false">
+    <div class="fm-header" v-show="fm_header_show |false">
       <img class="fm-logo" src="./assets/logo.png">
       <div class="fm-title" @click="handleHome">{{$t('header.title')}}</div>
       <div class="fm-link">
@@ -27,6 +27,11 @@
 import Vue from 'vue'
 export default {
   name: 'app',
+  data() {
+    return {
+      fm_header_show: false
+    }
+  },
   methods: {
     handleHome () {
       this.$router.push({path: '/'})
